@@ -1,3 +1,4 @@
+
 #number-projects-nd {
    font-size: 60px;
 }
@@ -55,3 +56,29 @@
    padding-bottom: 0px;
 
 }
+
+.chart-stage
+{
+   background-color: #EDEDEA;
+}
+
+.chart-title
+{
+  background-color: #aedaed;
+
+}
+
+.intro_button
+{
+   background-color:  #33CC99;
+   margin-top: 12px;
+}
+
+.maparea
+{
+   background-color: mintcream;
+}
+
+
+
+
