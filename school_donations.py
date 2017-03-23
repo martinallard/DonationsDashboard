@@ -11,7 +11,7 @@ app = Flask(__name__)
 MONGODB_URI = os.getenv("MONGODB_URI")
 
 #DBS_NAME = 'donorsUSA' # what database do i want to connect to. donorsUSA
-DBS_NAME = ('MONGO_DB_NAME','donorsUSA')
+DBS_NAME =  os.getenv('MONGO_DB_NAME','donorsUSA')
 
 #COLLECTION_NAME = 'projects' # what collection of data do i want within donorsUSA. I want projects
 COLLECTION_NAME = os.getenv('MONGO_COLLECTION_NAME','projects')
